@@ -12,7 +12,7 @@ final class CryptoDetailViewController: UIViewController {
     private let crypto: CryptoCurrency
     private let detailView = CryptoDetailView()
     
-    var coordinator: AppCoordinator?
+    weak var coordinator: AppCoordinator?
 
 
     init(crypto: CryptoCurrency) {

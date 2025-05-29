@@ -15,7 +15,7 @@ enum SortOrder {
 
 final class CryptoListViewModel {
     
-    var delegate: CryptoListViewModelDelegate?
+    weak var delegate: CryptoListViewModelDelegate?
     
     private(set) var cryptos: [CryptoCurrency] = []
     

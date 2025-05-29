@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol CryptoListViewModelDelegate {
+protocol CryptoListViewModelDelegate: AnyObject {
     func didUpdateCryptos()
     func didStartLoading()
     func didFinishLoading()

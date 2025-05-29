@@ -37,6 +37,8 @@ final class CryptoListViewController: UIViewController {
         
     }
     
+  
+    
     // MARK: Settings ActivityIndicator
 
     private func setupActivityIndicator() {
